@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Planning documents
+**/requirements.md
+**/design.md
+**/user-flow.md
+**/roadmap.md
+
+# Test folders
+**/sandbox/
