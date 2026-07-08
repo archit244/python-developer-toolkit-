@@ -2,6 +2,10 @@
 
 A command-line Expense Tracker built in Python that allows users to manage their daily expenses with persistent JSON storage.
 
+This project is part of the **Python Developer Toolkit**, a collection of small command-line utilities built to strengthen Python fundamentals through hands-on practice.
+
+---
+
 ## ✨ Features
 
 - ➕ Add new expenses
@@ -16,23 +20,35 @@ A command-line Expense Tracker built in Python that allows users to manage their
 - 📅 Automatic date generation
 - ✅ Input validation
 
+---
+
 ## 🛠️ Tech Stack
 
 - Python 3
-- JSON (for data persistence)
-- `datetime` module
+- Standard Library
+  - `json`
+  - `datetime`
+
+---
 
 ## 📁 Project Structure
 
 ```text
 expense-tracker/
 │── main.py
+│── menu.py
+│── operations.py
+│── statistics.py
+│── storage.py
+│── utils.py
 │── expenses.json
 │── README.md
 │── requirements.md
 │── design.md
 └── userflow.md
 ```
+
+---
 
 ## 🚀 Getting Started
 
@@ -49,11 +65,13 @@ Run the application:
 python3 main.py
 ```
 
+---
+
 ## 📸 Sample Menu
 
 ```text
 ========================================
-         EXPENSE TRACKER
+        EXPENSE TRACKER
 ========================================
 
 1. Add Expense
@@ -69,9 +87,11 @@ python3 main.py
 Choose an option:
 ```
 
+---
+
 ## 📚 Concepts Practiced
 
-This project was built without following a tutorial and focuses on learning fundamental Python concepts through real-world implementation.
+This project was built as part of a hands-on Python fundamentals series, focusing on solving practical problems while learning core programming concepts.
 
 - Functions
 - Lists & Dictionaries
@@ -84,18 +104,24 @@ This project was built without following a tutorial and focuses on learning fund
 - String Formatting
 - Data Persistence
 - Aggregations (`sum`, `max`, `min`)
+- Python Modules & Imports
+- Project Organization
 - Basic Software Design
+
+---
 
 ## 🎯 Future Improvements
 
 - Export expenses to CSV
 - Filter expenses by date
-- Sort by amount or date
-- Monthly and yearly reports
+- Sort expenses by amount or date
+- Monthly and yearly expense reports
 - Budget tracking
 - Charts and visualizations
 - SQLite database support
 
-## 👨‍💻 Author
+---
 
-**Archit Adarsh**
+## 📜 License
+
+This project is intended for learning and educational purposes.
